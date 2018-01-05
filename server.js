@@ -28,7 +28,7 @@ function handleError(res, reason, message, code) {
 }
 
  app.get('/',function(req,res){
-     res.sendFile('index.html', { root: 'src' });
+     res.sendFile('index.html', { root: 'dist' });
  })
 
 app.get("/api/contacts", function (req, res) {
